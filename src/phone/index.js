@@ -1,4 +1,5 @@
 import React from 'react'
+import classNames from 'classnames'
 import './index.scss'
 import statusBarImg from './image/status-bar.png'
 
@@ -9,12 +10,20 @@ export default class Phone extends React.Component {
     }
 
     render() {
+        const {className, children, ...others} = this.props
+        const classes = classNames({
+            '_namespace': true,
+            'mobile': true,
+            'phone': true,
+            [className]: className
+        })
+
         return (
-            <div className="_namespace mobile phone">
+            <div {...others} className={classes}>
                 <img src={statusBarImg}
                      className="status-bar"/>
                 <div className="phone-content">
-                    {this.props.children}
+                    {children}
                 </div>
             </div>
         )
