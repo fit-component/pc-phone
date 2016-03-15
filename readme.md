@@ -3,5 +3,5 @@
 ---
 
 ````jsx
-npm install fit-phone /* or */ fis3 install fit-phone
+npm install fit-phone
 ````
