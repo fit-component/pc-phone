@@ -2,7 +2,6 @@ import React from 'react'
 import classNames from 'classnames'
 import './index.scss'
 import statusBarImg from './image/status-bar.png'
-import 'fit-progress'
 
 export default class Phone extends React.Component {
     constructor(props) {
