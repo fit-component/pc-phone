@@ -1,6 +1,6 @@
 {
   "name": "fit-phone",
-  "version": "1.0.45",
+  "version": "1.0.46",
   "description": "手机壳样式",
   "main": "lib/index.js",
   "scripts": {
