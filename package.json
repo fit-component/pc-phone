@@ -1,6 +1,6 @@
 {
   "name": "fit-phone",
-  "version": "3.0.47",
+  "version": "3.0.48",
   "description": "手机壳样式",
   "main": "lib/index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   "dependencies": {
     "react": "^0.14.0 || ^15.0.0",
     "classnames": "2.2.3",
-    "fit-transmit-transparently": "^3.1.65"
+    "fit-transmit-transparently": "^3.1.66"
   },
   "typings": "lib/index.d.ts"
 }
